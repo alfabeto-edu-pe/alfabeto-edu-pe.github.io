@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfabeto SAC - Bootcamps de Tecnología | Perú</title>
+    <meta name="description" content="Alfabeto SAC: Bootcamps y enseñanza online de Electrónica, IoT, Edge Computing, Arduino/Raspberry con IA integrada. Basado en Perú.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+        header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+        .logo img { height: 50px; width: auto; }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { color: white; text-decoration: none; transition: opacity 0.3s ease; }
+        .nav-links a:hover { opacity: 0.8; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 6rem 2rem; text-align: center; }
+        .hero-content { max-width: 1200px; margin: 0 auto; }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 1rem; font-weight: 700; }
+        .hero p { font-size: 1.3rem; margin-bottom: 2rem; opacity: 0.95; }
+        .cta-button { display: inline-block; background: #ff6b6b; color: white; padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; border: none; cursor: pointer; font-size: 1.1rem; }
+        .cta-button:hover { background: #ff5252; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+        section { padding: 4rem 0; }
+        section h2 { font-size: 2.5rem; text-align: center; margin-bottom: 3rem; color: #1e3c72; }
+        .programs { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; padding: 2rem 0; }
+        .program-card { background: white; border-radius: 10px; padding: 2rem; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 4px solid #667eea; }
+        .program-card:hover { transform: translateY(-10px); box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+        .program-card h3 { color: #1e3c72; margin-bottom: 1rem; font-size: 1.5rem; }
+        .program-card p { color: #666; margin-bottom: 1rem; }
+        .icon { font-size: 3rem; margin-bottom: 1rem; }
+        .skills { background: #f8f9fa; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.5rem; padding: 2rem 0; }
+        .skill-item { background: white; padding: 1.5rem; border-radius: 8px; text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
+        .skill-item h4 { color: #667eea; margin-bottom: 0.5rem; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; padding: 2rem 0; }
+        .feature { padding: 1.5rem; border-left: 4px solid #ff6b6b; background: white; border-radius: 5px; }
+        .feature h3 { color: #1e3c72; margin-bottom: 0.5rem; }
+        .feature p { color: #666; }
+        footer { background: #1e3c72; color: white; text-align: center; padding: 2rem; margin-top: 4rem; }
+        .footer-content { max-width: 1200px; margin: 0 auto; }
+        .footer-links { display: flex; justify-content: center; gap: 2rem; margin: 1rem 0; flex-wrap: wrap; }
+        .footer-links a { color: white; text-decoration: none; transition: opacity 0.3s ease; }
+        .footer-links a:hover { opacity: 0.8; }
+        .location { display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin: 1rem 0; font-size: 1.1rem; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } .hero p { font-size: 1.1rem; } section h2 { font-size: 2rem; } .nav-links { gap: 1rem; font-size: 0.9rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/alfabeto_logo.png" alt="Alfabeto SAC Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#programas">Programas</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="https://alfabeto.edu.pe" target="_blank">Web Oficial</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Alfabeto SAC</h1>
+            <p>Bootcamps de Tecnología avanzada con IA integrada</p>
+            <p style="font-size: 1.1rem; margin-bottom: 2rem;">Electrónica • IoT • Edge Computing • Arduino • Raspberry Pi</p>
+            <a href="https://alfabeto.edu.pe" class="cta-button">Conoce más</a>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <h2>¿Quiénes somos?</h2>
+            <p style="text-align: center; color: #666; font-size: 1.1rem; max-width: 800px; margin: 0 auto;">
+                Somos una institución educativa especializada en bootcamps y enseñanza online de tecnologías de frontera. 
+                Combinamos Electrónica, IoT, Edge Computing y desarrollo en Arduino/Raspberry con un uso intensivo de 
+                Inteligencia Artificial como complemento y suplemento en el aprendizaje. Basada en Perú, ofrecemos 
+                formación profesional integral utilizando VSCode, GitHub y GitHub Copilot.
+            </p>
+        </div>
+    </section>
+    
+    <section style="background: #f8f9fa;">
+        <div class="container">
+            <h2 id="programas">Nuestros Programas</h2>
+            <div class="programs">
+                <div class="program-card">
+                    <div class="icon">⚡</div>
+                    <h3>Electrónica</h3>
+                    <p>Fundamentos y aplicaciones avanzadas de electrónica digital y analógica con proyectos prácticos.</p>
+                </div>
+                <div class="program-card">
+                    <div class="icon">🌐</div>
+                    <h3>IoT</h3>
+                    <p>Internet de las Cosas: conectividad, sensores y sistemas embebidos para la industria moderna.</p>
+                </div>
+                <div class="program-card">
+                    <div class="icon">🔧</div>
+                    <h3>Edge Computing</h3>
+                    <p>Procesamiento en el borde: arquitecturas distribuidas y computación de bajo latencia.</p>
+                </div>
+                <div class="program-card">
+                    <div class="icon">🤖</div>
+                    <h3>Arduino/Raspberry</h3>
+                    <p>Desarrollo práctico con microcontroladores y computadoras de placa única para proyectos reales.</p>
+                </div>
+                <div class="program-card">
+                    <div class="icon">🧠</div>
+                    <h3>IA Integrada</h3>
+                    <p>Inteligencia Artificial como complemento en todos nuestros programas para potenciar el aprendizaje.</p>
+                </div>
+                <div class="program-card">
+                    <div class="icon">💻</div>
+                    <h3>Herramientas Pro</h3>
+                    <p>VSCode, GitHub y GitHub Copilot: las herramientas estándar de la industria profesional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <h2 id="habilidades">Habilidades que Desarrollarás</h2>
+            <div class="skills">
+                <div class="skill-item">
+                    <h4>🔌 Hardware</h4>
+                    <p>Diseño y ensamblaje de circuitos</p>
+                </div>
+                <div class="skill-item">
+                    <h4>💾 Firmware</h4>
+                    <p>Programación de dispositivos embebidos</p>
+                </div>
+                <div class="skill-item">
+                    <h4>🌍 Conectividad</h4>
+                    <p>Redes y comunicación IoT</p>
+                </div>
+                <div class="skill-item">
+                    <h4>📊 Datos</h4>
+                    <p>Análisis e insights con IA</p>
+                </div>
+                <div class="skill-item">
+                    <h4>🚀 Cloud</h4>
+                    <p>Deployment y escalabilidad</p>
+                </div>
+                <div class="skill-item">
+                    <h4>👥 Colaboración</h4>
+                    <p>Trabajo en equipo con Git/GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section style="background: #f8f9fa;">
+        <div class="container">
+            <h2 id="caracteristicas">¿Por qué elegir Alfabeto SAC?</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>🎓 Formación Especializada</h3>
+                    <p>Bootcamps intensivos diseñados por expertos en tecnología de frontera con experiencia industrial.</p>
+                </div>
+                <div class="feature">
+                    <h3>📱 Enseñanza Online</h3>
+                    <p>Acceso flexible desde cualquier lugar, sin comprometer la calidad ni la interacción práctica.</p>
+                </div>
+                <div class="feature">
+                    <h3>🤖 IA como Herramienta</h3>
+                    <p>Integración profunda de inteligencia artificial para mejorar y acelerar el aprendizaje.</p>
+                </div>
+                <div class="feature">
+                    <h3>🏆 Proyectos Reales</h3>
+                    <p>Trabajas en proyectos prácticos que reflejan desafíos del mundo profesional actual.</p>
+                </div>
+                <div class="feature">
+                    <h3>⭐ Herramientas Profesionales</h3>
+                    <p>Aprende con VSCode, GitHub y GitHub Copilot: las mismas herramientas usadas en la industria.</p>
+                </div>
+                <div class="feature">
+                    <h3>🇵🇪 Local, Global</h3>
+                    <p>Basados en Perú pero con estándares y alcance internacional en educación tecnológica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <h2>Recursos y Plataformas</h2>
+            <p style="text-align: center; margin-bottom: 2rem; color: #666;">
+                Complementamos nuestro currículum con las mejores plataformas de aprendizaje:
+            </p>
+            <div class="programs">
+                <div class="program-card">
+                    <h3>boot.dev</h3>
+                    <p>Programación backend interactiva y proyectos reales.</p>
+                </div>
+                <div class="program-card">
+                    <h3>Scrimba</h3>
+                    <p>Aprendizaje interactivo de desarrollo front-end y full-stack.</p>
+                </div>
+                <div class="program-card">
+                    <h3>GitHub Copilot</h3>
+                    <p>Asistente de IA para aceleración en el desarrollo de código.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center;">
+        <div class="container">
+            <h2 style="color: white;">¿Listo para transformar tu carrera?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">Únete a nuestro próximo bootcamp y comienza tu viaje en tecnología.</p>
+            <a href="https://alfabeto.edu.pe" class="cta-button">Inscríbete Ahora</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <h3>Alfabeto SAC</h3>
+            <div class="location">
+                <span>📍 Perú</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://alfabeto.edu.pe" target="_blank">Sitio Web</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://boot.dev" target="_blank">boot.dev</a>
+                <a href="https://scrimba.com" target="_blank">Scrimba</a>
+            </div>
+            <p>&copy; 2026 Alfabeto SAC. Todos los derechos reservados.</p>
+            <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.8;">Educación Tecnológica de Excelencia | Perú</p>
+        </div>
+    </footer>
+</body>
+</html>
